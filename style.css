@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+textarea {
+    resize:none;
+}
+
 .ajout {
     width:100%;
     margin:auto;

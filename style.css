@@ -918,6 +918,14 @@ h4 {
         background: none;
         background-size: 280px 280px;
     }
+    
+    .bg-banniere {
+        background-image: url("img/la-chouette-agence-banniere-sm.jpg");
+    }
+    
+    .bg-presentation {
+        background-image: url("img/image-de-presentation-sm.png");
+    }
 
     .bloc {
         /*padding-left: constant(safe-area-inset-left);

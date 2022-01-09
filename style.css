@@ -880,6 +880,7 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -906,6 +907,18 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+    .bg-dots-bg {
+        background-image: none;
+    }
+    
+    .bg-lines-h2-bg {
+        background-image: none;
+    }
+    .texture-paper::before {
+        background: none;
+        background-size: 280px 280px;
+    }
+
     .bloc {
         /*padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);*/
